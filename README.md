@@ -79,6 +79,7 @@ There are total 2187 training images and 342 validation images, with 4 categorie
 ## Result
 
 <img width="367" alt="image" src="https://github.com/yichunlo/Lightweight_Animal_Body_Parts_Detection_on_Edge_Device/assets/45264573/cb660c0c-2a7d-4b98-b121-01a4d4ffaa00">
+
 Our result is not satisfying due to several reasons:
 1. **Not Enough Data**: We only have around 2000 images for training, which is too small for precise body parts detection.
 2. **Bias In Data**: The dataset of the second part contains some bias, as we generate the dataset by transform the keypoints into bounding box. Some images would be skipped by us.
